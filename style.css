@@ -21,9 +21,7 @@ section{
 .navbar{ /* Cara gradasi background dengan css */
     background: linear-gradient(50deg, #0f0f0f, #262A56);
 }
-footer{
-    background: #262A56 ;
-}
+
 .button{
     width: 10rem;
     padding: 5px;
