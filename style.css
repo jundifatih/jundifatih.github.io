@@ -10,8 +10,7 @@
     color: white;
 }
 #teknologi{
-    background-color: #262A56;
-    color: white;
+    background-color: white;
 }
 section{
     padding-top: 5rem;
@@ -49,4 +48,10 @@ section{
     width: 300px;
     background-color: #1D1CE5;
     border-radius: 8px;
+}
+.image_teknologi{
+    filter: grayscale(1);
+}
+.image_teknologi:hover{
+    filter: grayscale(0);
 }
