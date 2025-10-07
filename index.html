@@ -16,6 +16,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portofolio | Jundi</title>
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
@@ -41,31 +42,23 @@
           </div>
         </div>
     </nav>
+
     <!--Section jumbroton-->
-    <section class="jumbroton text-center" id="jumbroton">
-      <img src="img/profile.jpg" class="rounded-circle" alt="Profile" width="200">
+    <section class="jumbroton text-center mt-5" id="jumbroton">
+      <img src="img/profile.jpg" class="rounded-circle" alt="Profile">
       <h1 class="display-4 mt-2" data-aos="fade-up">Muhammad Jundi Fatih</h1>
-      <p class="lead" data-aos="fade-up">Selamat datang di Portofolio Jundi!</p>
+      <p class="lead" data-aos="fade-up">Web Developer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,320L24,309.3C48,299,96,277,144,240C192,203,240,149,288,133.3C336,117,384,139,432,176C480,213,528,267,576,282.7C624,299,672,277,720,266.7C768,256,816,256,864,234.7C912,213,960,171,1008,149.3C1056,128,1104,128,1152,117.3C1200,107,1248,85,1296,112C1344,139,1392,213,1416,250.7L1440,288L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
     </section>
     <!--Akhir Jumbroton-->
     
     <!--Section About Me-->
-    <section id="about">
-      <div class="container light">
-        <div class="row text-center mb-3">
-          <div class="col" data-aos="fade-up">
-            <h2>Tentang Saya</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5">
-          <div class="col-md-4" data-aos="fade-up">
-            <p>Ketertarikan dengan bidang Pemrograman khususnya website.</p>
-          </div>
-          <div class="col-md-4" data-aos="fade-up">
-           <p>Memiliki pengalaman dalam pembuatan website dari beberapa proyek dan kerjasama di berbagai tim pada saat kuliah.</p>
-          </div>
-          <p class="lead text-center text-black" data-aos="fade-up">- Berusaha Menjadi Programmer -</p>
+    <section id="about" class="bg-white">
+      <div class="container d-flex align-items-center gap-5 mt-5" id="div-about" data-aos="fade-up">
+        <img src="img/undraw_web-developer_ggt0.png" alt="tes" id="img-about">
+        <div class="text-start">
+          <h1 style="color: #262A56;">Tentang Saya</h1>
+          <p style="color:black;font-size: 1.5rem;" class="fw-light">Saya seorang web developer yang berfokus pada pengembangan website dengan antarmuka yang responsif.</p>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#262A56" fill-opacity="1" d="M0,224L48,224C96,224,192,224,288,197.3C384,171,480,117,576,122.7C672,128,768,192,864,224C960,256,1056,256,1152,224C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
@@ -131,12 +124,13 @@
     <section id="teknologi" class="mb-5">
       <div class="container pb-3 pt-2">
         <div class="row text-center mb-3">
-          <div class="col mb-5">
+          <div class="col mb-2">
             <h2 data-aos="fade-up" style="color: #262A56;" class="fw-bold">Teknologi</h2>
-            <h5 data-aos="fade-up" style="color: #262A56;" class="fw-bold">Berikut teknologi yang saya gunakan untuk membuat website</h5>
+            <p data-aos="fade-up" style="color: black;font-size: 1.2rem;" class="fw-light">Berikut teknologi yang saya gunakan untuk pengembangan website</p>
           </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+
+        <!-- <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
             <img src="img/teknologi/html.png" alt="html" width="100" class="image_teknologi">
             <img src="img/teknologi/javascript.png" alt="js" width="100" class="image_teknologi">
             <img src="img/teknologi/mysql.png" alt="mysql" width="100" class="image_teknologi">
@@ -148,7 +142,24 @@
             <img src="img/teknologi/xampp.png" alt="xampp" width="100" class="image_teknologi">
             <img src="img/teknologi/css.png" alt="css" width="100" class="image_teknologi">
             <img src="img/teknologi/laravel.png" alt="laravel" width="100" class="image_teknologi">
-        </div>  
+        </div> -->
+
+        <div class="container d-flex flex-wrap justify-content-center gap-3">
+          <div class="div_teknologi gap-3" data-aos="fade-up">
+            <img src="img/teknologi/html.png" alt="html" width="100">
+            <img src="img/teknologi/css.png" alt="css" width="70" height="100">
+            <img src="img/teknologi/bootstrap.png" alt="bootstrap" width="180">
+          </div>
+          <div class="div_teknologi gap-3" data-aos="fade-up">
+            <img src="img/teknologi/php.png" alt="php" width="90" height="70">
+            <img src="img/teknologi/javascript.png" alt="js" width="100">
+            <img src="img/teknologi/mysql.png" alt="mysql" width="100">
+          </div>
+          <div class="div_teknologi gap-3" data-aos="fade-up">
+            <img src="img/teknologi/laravel.png" alt="laravel" width="80" height="85">
+            <img src="img/teknologi/react.png" alt="react" width="85" height="85">
+          </div>
+        </div>
       </div>
     </section>
     <!-- Akhir Teknologi -->
@@ -194,13 +205,15 @@
     <!-- </section> -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#262A56" fill-opacity="1" d="M0,32L48,58.7C96,85,192,139,288,138.7C384,139,480,85,576,69.3C672,53,768,75,864,112C960,149,1056,203,1152,192C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <!--Akhir Contact-->
+    
     <!--Awal Footer-->
     <div class="d-flex justify-content-around align-items-center flex-wrap gap-3 pb-3 ps-3 pe-3" style="background: #262A56">
       <footer class="text-white text-center pt-3">
-        <p>Dibuat oleh Muhammad Jundi Fatih</p>
+        <p style="font-size: 0.8rem;">Dibuat oleh Muhammad Jundi Fatih</p>
       </footer>
-      <div class="d-flex gap-3">
-        <a href="https://instagram.com/jundi.fatih?utm_medium=copy_link" target="_blank"><i class="bi bi-instagram fs-4 text-white"></i></a>
+      <div class="d-flex gap-3 align-items-center">
+        <!-- <a href="https://instagram.com/jundi.fatih?utm_medium=copy_link" target="_blank"><i class="bi bi-instagram fs-4 text-white"></i></a> -->
+        <a href="mailto:muhammadjundifatih1453@gmail.com" target="_blank"><i class="bi bi-envelope fs-2 text-white"></i></a>
         <a href="https://www.linkedin.com/in/muhammad-jundi-fatih-95b706227/" target="_blank"><i class="bi bi-linkedin fs-4 text-white"></i></a>
       </div>
     </div>

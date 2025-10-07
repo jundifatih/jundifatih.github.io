@@ -12,10 +12,25 @@
 #teknologi{
     background-color: white;
 }
+.div_teknologi{
+    /* background-color: #0f0f0f; */
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 1.8rem;
+    border-radius: 16px;
+    border: 1px solid #262A56;
+}
 section{
     padding-top: 5rem;
 }
 
+#img-about{
+    width: 300px;
+    height: auto;
+}
 /*h1 { Cara Gradasi Teks dengan CSS 
     /*background: -webkit-linear-gradient(45deg, #8710e986, #f07328);
     /*-webkit-background-clip: text;
@@ -54,4 +69,15 @@ section{
 }
 .image_teknologi:hover{
     filter: grayscale(0);
+}
+
+@media (width > 1280px){
+    #img-about{
+        width: 400px;
+    }
+}
+@media (width < 600px){
+    #div-about{
+    flex-wrap: wrap;
+    }
 }
